@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-st.set_page_config(page_title='Star Wars: Animated Shows')
+st.set_page_config(page_title='Clone Wars Viewing Order', layout="wide")
 
 css='''
 <style>
