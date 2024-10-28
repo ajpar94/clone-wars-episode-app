@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-st.set_page_config(page_title='Clone Wars Viewing Order', layout="wide")
+st.set_page_config(page_title='The Clone Wars | Viewing Order', layout="wide", page_icon="images/favicon.png")
 
 css='''
 <style>
