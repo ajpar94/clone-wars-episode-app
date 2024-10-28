@@ -4,7 +4,7 @@ st.set_page_config(page_title='The Clone Wars | Viewing Order', layout="wide", p
 
 css='''
 <style>
-    section.main > div {max-width:70rem}
+    section.stMain > div {max-width:70rem}
 </style>
 '''
 st.markdown(css, unsafe_allow_html=True)
