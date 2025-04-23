@@ -52,7 +52,7 @@ with tabA:
             st.markdown(f"[Episode Guide]({row['url']}) | [Stream]({row['stream']})")
 
 with tabB:
-    with st.expander("The Clone Wars (S1E0: Battle of Christophsis)"):
+    with st.expander("The Clone Wars (S1:E0 Battle of Christophsis)"):
         col1, col2 = st.columns([10,18])
         with col1:
             img = "images/artwork.png"
