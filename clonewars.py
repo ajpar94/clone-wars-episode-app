@@ -100,7 +100,7 @@ with tab2:
             st.image(img)
         with col2:
             quote(("It is in the darkest moments that the light within must shine the brightest").upper())
-            st.write("A combination of the final arc (S7\:E9-12) and Episode III - Revenge of the Sith, resulting in a 3.5h movie that concludes The Clone Wars.")
+            st.write("A combination of the final arc (7_09 - 7_12) and Episode III - Revenge of the Sith, resulting in a 3.5h movie that concludes The Clone Wars.")
             st.markdown(f"[Fan-Edit](https://originaltrilogy.com/topic/The-Clone-Wars-Revenge-of-the-Sith-Extended-Edition-Released/id/124945)")
 with tab1:
     for i, row in cw.tail(4).iterrows():
