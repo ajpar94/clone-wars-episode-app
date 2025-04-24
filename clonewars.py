@@ -39,7 +39,7 @@ cw_header(arc)
 tabA, tabB = st.tabs(["Original", "Fan-Edit"])
 
 with tabA:
-    with st.expander("The Clone Wars Movie"):
+    with st.expander("Star Wars: The Clone Wars (Film)"):
         col1, col2 = st.columns([10,18])
         with col1:
             img = "images/pilot.png"
@@ -52,7 +52,7 @@ with tabA:
             st.markdown(f"[Episode Guide]({row['url']}) | [Stream]({row['stream']})")
 
 with tabB:
-    with st.expander("The Clone Wars (S1:E0 Battle of Christophsis)"):
+    with st.expander("Star Wars: The Clone Wars (Battle of Christophsis)"):
         col1, col2 = st.columns([10,18])
         with col1:
             img = "images/artwork.png"
@@ -62,7 +62,7 @@ with tabB:
             if (q := row['quote']) != ".":
                 quote(q.upper())
             st.write("The Clone Wars movie stripped down to a ~20 minute-long story that serves perfectly as the pilot episode. \n\nAnakin and Obi-Wan continue to fight on the frontlines in the Battle of Christophsis when they are surprised by a new visitor sent by the Jedi Council -- Padawan Ahsoka Tano.")
-            st.markdown(f"[Episode Guide]({row['url']}) | [Fan-Edit](https://originaltrilogy.com/topic/The-Clone-Wars-S1E0-Battle-of-Christophsis-Released/id/134671)")
+            st.markdown(f"[Fan-Edit](https://originaltrilogy.com/topic/The-Clone-Wars-S1E0-Battle-of-Christophsis-Released/id/134671)")
 
 for i, row in cw[1:-4].iterrows():
     if row["arc_name"] != arc:
@@ -93,7 +93,7 @@ cw_header("Siege of Mandalore")
 tab1, tab2 = st.tabs(["Original", "Fan-Edit"])
 
 with tab2:
-    with st.expander("The Clone Wars (Revenge of the Sith -  Extended Edition)"):
+    with st.expander("Star Wars: The Clone Wars x Revenge of the Sith"):
         col1, col2 = st.columns([10,18])
         with col1:
             img = f"images/artwork2.png"
