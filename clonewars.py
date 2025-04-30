@@ -119,3 +119,22 @@ with tab1:
                     quote(q.upper())
                 st.write(row['desc'])
                 st.markdown(f"[Episode Guide]({row['url']}) | [Stream]({row['stream']})")
+
+
+footer="""<style>
+.footer {
+position: relative;
+width: 100%;
+color: gray;
+text-align: center;
+margin-top: 140px;
+margin-bottom: -180px;
+}
+</style>
+<div class="footer">
+<p style="font-size: 12px;">This website is a fanmade project and is not affiliated with any official brand, company, or copyright holder.<br/>
+All images and media used on this site remain the property of their respective owners.<br/>
+Please don't sue me - this is just for fun, not profit.</p>
+</div>
+"""
+st.markdown(footer,unsafe_allow_html=True)
