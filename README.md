@@ -16,7 +16,7 @@ That said, The show has two major issues that turn many viewers away:
 
 **So I made my own watchlist**
 
-It’s a custom episode selection and order, grouped by story arcs. I’m not the first to do this, but most guides online stick closely to the chronological order while skipping weaker episodes. I instead ordered and grouped them in a way that felt interesting and thematically consistent to me. To my knowledge, it's the only list to also include stuff from unfinished episodes (released as audio comic, etc.)
+This is mostly for people who don't want to commit to watching every episode or for people who want to rewatch it through a slighlty new perspective. Either way, this is a custom episode selection and order, grouped by story arcs. I’m not the first to do this, but most guides online stick closely to the chronological order while skipping weaker episodes. I instead ordered and grouped them in a way that felt interesting and thematically consistent to me. To my knowledge, it's the only list to also include stuff from unfinished episodes (released as audio comic, etc.)
 
 I also wanted to make the experience easy and smooth — no jumping around or looking up what to watch next. The site includes clear episode groupings by arc and direct links to Disney+ (and YouTube for unreleased or unfinished content)
 
