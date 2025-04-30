@@ -12,7 +12,7 @@ That said, The show has two major issues that turn many viewers away:
 
 - **The release order is a mess.**. The episodes aired out of sequence, so watching them in Disney+’s default order can be confusing. Even the official [chronological order](https://www.starwars.com/news/star-wars-the-clone-wars-chronological-episodeorder) doesn’t always work well narratively — especially for first-time viewers.
 
-- **The early episodes are rough**. Like many shows, it gets much better over time. But watching every single episode — especially in the beginning — can be a slog. I know people who gave up just a few episodes in. But the truth is: you don’t need to watch every episode to get the best experience.
+- **The early episodes are a bit rough**. Like many shows, it gets much better over time. But watching every single episode — especially in the beginning — can be a slog. I know people who gave up just a few episodes in. But you know, you don’t _have_ to watch every episode if you don't want to.
 
 **So I made my own watchlist**
 
