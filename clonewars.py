@@ -128,7 +128,7 @@ width: 100%;
 color: gray;
 text-align: center;
 margin-top: 140px;
-margin-bottom: -180px;
+margin-bottom: -120px;
 }
 </style>
 <div class="footer">
