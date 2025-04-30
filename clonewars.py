@@ -127,7 +127,7 @@ position: relative;
 width: 100%;
 color: gray;
 text-align: center;
-margin-top: 140px;
+margin-top: 100px;
 margin-bottom: -120px;
 }
 </style>
