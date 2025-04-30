@@ -73,7 +73,7 @@ for i, row in cw[1:-4].iterrows():
     arc = row["arc_name"]
 
     if row['season'] != ".":
-        prefix = f"{row['season']}_{str.zfill(str(row['episode']), 2)} | "
+        prefix = f"{row['season']}x{str.zfill(str(row['episode']), 2)} | "
     else:
         prefix = ""
     expander_title = prefix + row['title']
@@ -100,12 +100,12 @@ with tab2:
             st.image(img)
         with col2:
             quote(("It is in the darkest moments that the light within must shine the brightest").upper())
-            st.write("A combination of the final arc (7_09 - 7_12) and Episode III - Revenge of the Sith, resulting in a 3.5h movie that concludes The Clone Wars.")
+            st.write("A combination of the final arc (7x09 - 7x12) and Episode III - Revenge of the Sith, resulting in a 3.5h movie that concludes The Clone Wars.")
             st.markdown(f"[Fan-Edit](https://originaltrilogy.com/topic/The-Clone-Wars-Revenge-of-the-Sith-Extended-Edition-Released/id/124945)")
 with tab1:
     for i, row in cw.tail(4).iterrows():
         if row['season'] != ".":
-            prefix = f"{row['season']}_{str.zfill(str(row['episode']), 2)} | "
+            prefix = f"{row['season']}x{str.zfill(str(row['episode']), 2)} | "
         else:
             prefix = ""
         expander_title = prefix + row['title']
