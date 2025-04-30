@@ -4,6 +4,8 @@
 
 ![image](https://i.ibb.co/wjqK47K/website.png)
 
+---
+
 With _May the 4th_ around the corner, it’s the perfect time to (re)watch _Star Wars: The Clone Wars_. I consider it essential — it deepens the lore, strengthens the prequels, and builds up to one of the best finales I’ve ever seen in any TV show.
 
 That said, The show has two major issues that turn many viewers away:
