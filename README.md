@@ -1,4 +1,4 @@
-## Website for my Clone Wars Episode Order/Selection
+## Website for my personal Clone Wars Episode Guide
 
 **TL;DR**: Here is my curated episode guide: [https://clonewars-viewing-order.streamlit.app/](https://clonewars-viewing-order.streamlit.app/)
 
@@ -42,7 +42,7 @@ This is just my personal take. It won’t satisfy everyone — and that’s okay
 
 - **Clone Troopers** focuses on Domino Squad across different periods during the war. You see how some of them turn from rookies into ARC troopers.
 
-- **Aggressive Negotiations** includes **4x14 A Friend in Need**, partly because it's linked throuhg Lux, and also because I wanted it to be the debut of Ahsoka’s new lightsabers.
+- **Aggressive Negotiations** includes **4x14 A Friend in Need**, partly because it's linked through Lux, and also because I wanted it to be the debut of Ahsoka’s new lightsabers.
 
 - I grouped all the **Dathomir** content closer to the **Darth Maul** arcs for narrative cohesion.
 
