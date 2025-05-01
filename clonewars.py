@@ -62,7 +62,7 @@ with tabB:
             if (q := row['quote']) != ".":
                 quote(q.upper())
             st.write("The Clone Wars movie stripped down to a ~20 minute-long story that serves perfectly as the pilot episode. \n\nAnakin and Obi-Wan continue to fight on the frontlines in the Battle of Christophsis when they are surprised by a new visitor sent by the Jedi Council -- Padawan Ahsoka Tano.")
-            st.markdown(f"[Fan-Edit](https://originaltrilogy.com/topic/The-Clone-Wars-S1E0-Battle-of-Christophsis-Released/id/134671)")
+            st.markdown(f"[Fan-Edit](https://originaltrilogy.com/topic/The-Clone-Wars-S1E0-Battle-of-Christophsis-Released/id/134671) | [Preview](https://www.youtube.com/watch?v=y8KbK_zzA0s)")
 
 for i, row in cw[1:-4].iterrows():
     if row["arc_name"] != arc:
@@ -101,7 +101,7 @@ with tab2:
         with col2:
             quote(("It is in the darkest moments that the light within must shine the brightest").upper())
             st.write("A combination of the final arc (7x09 - 7x12) and Episode III - Revenge of the Sith, resulting in a 3.5h movie that concludes The Clone Wars.")
-            st.markdown(f"[Fan-Edit](https://originaltrilogy.com/topic/The-Clone-Wars-Revenge-of-the-Sith-Extended-Edition-Released/id/124945)")
+            st.markdown(f"[Fan-Edit](https://originaltrilogy.com/topic/The-Clone-Wars-Revenge-of-the-Sith-Extended-Edition-Released/id/124945) | [Preview](https://www.youtube.com/watch?v=kp0picycMHE)")
 with tab1:
     for i, row in cw.tail(4).iterrows():
         if row['season'] != ".":
