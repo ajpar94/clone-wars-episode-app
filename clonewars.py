@@ -62,7 +62,7 @@ with tabB:
             if (q := row['quote']) != ".":
                 quote(q.upper())
             st.write("The Clone Wars movie stripped down to a ~20 minute-long story that serves perfectly as the pilot episode. \n\nAnakin and Obi-Wan continue to fight on the frontlines in the Battle of Christophsis when they are surprised by a new visitor sent by the Jedi Council -- Padawan Ahsoka Tano.")
-            st.markdown(f"[Fan-Edit](https://originaltrilogy.com/topic/The-Clone-Wars-S1E0-Battle-of-Christophsis-Released/id/134671) | [Preview](https://www.youtube.com/watch?v=y8KbK_zzA0s)")
+            st.markdown(f"[Fan-Edit](https://originaltrilogy.com/topic/The-Clone-Wars-S1E0-Battle-of-Christophsis-Released/id/134671) | [Preview](https://www.youtube.com/watch?v=FI0zbqn-wDc)")
 
 for i, row in cw[1:-4].iterrows():
     if row["arc_name"] != arc:
@@ -96,12 +96,12 @@ with tab2:
     with st.expander("Star Wars: The Clone Wars x Revenge of the Sith"):
         col1, col2 = st.columns([10,18])
         with col1:
-            img = f"images/artwork2.png"
+            img = f"images/TCWxROTS_artwork.png"
             st.image(img)
         with col2:
             quote(("When the final light fades, darkness reclaims its rule.").upper())
             st.write("A combination of the final arc (7x09 - 7x12) and Episode III - Revenge of the Sith, resulting in a 3.5h movie that concludes The Clone Wars.")
-            st.markdown(f"[Fan-Edit](https://originaltrilogy.com/topic/The-Clone-Wars-Revenge-of-the-Sith-Extended-Edition-Released/id/124945) | [Preview](https://odysee.com/@Utinni94:d/swtcwxrots:1)")
+            st.markdown(f"[Fan-Edit](https://originaltrilogy.com/topic/The-Clone-Wars-Revenge-of-the-Sith-Extended-Edition-Released/id/124945) | [Preview](https://www.youtube.com/watch?v=lgBqBDKXbHU)")
 with tab1:
     for i, row in cw.tail(4).iterrows():
         if row['season'] != ".":
