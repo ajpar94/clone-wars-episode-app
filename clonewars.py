@@ -33,7 +33,7 @@ Episodes are grouped into story arcs and don't necessarily follow the chronologi
 This list also includes links to episode guides, fan-edits, and streaming options on Disney+ or YouTube.</p>
 ''', unsafe_allow_html=True)
 
-arc = "Jedi Missions"
+arc = "Pilot"
 
 cw_header(arc)
 tabA, tabB = st.tabs(["Original", "Fan-Edit"])
