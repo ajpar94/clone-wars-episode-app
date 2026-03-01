@@ -1,19 +1,25 @@
 import streamlit as st
 import pandas as pd
-st.set_page_config(page_title='The Clone Wars | Viewing Order', layout="wide", page_icon="images/favicon.png")
+st.set_page_config(page_title='The Clone Wars | Viewing Order',
+                   layout="wide", page_icon="images/favicon.png")
 
-css='''
+css = '''
 <style>
     section.stMain > div {max-width:70rem}
 </style>
 '''
 st.markdown(css, unsafe_allow_html=True)
 
+
 def cw_header(url):
-    st.markdown(f'**<p style="color:#43a5cf;font-size:24px;border-radius:2%;">{url}</p>**', unsafe_allow_html=True)
+    st.markdown(
+        f'**<p style="color:#43a5cf;font-size:24px;border-radius:2%;">{url}</p>**', unsafe_allow_html=True)
+
 
 def cw_header_faded(url):
-    st.markdown(f'**<p style="color:#43a5cf;font-size:24px;border-radius:2%;opacity:0.5">{url}</p>**', unsafe_allow_html=True)
+    st.markdown(
+        f'**<p style="color:#43a5cf;font-size:24px;border-radius:2%;opacity:0.5">{url}</p>**', unsafe_allow_html=True)
+
 
 def quote(q):
     st.markdown(f'<p style="color:#43a5cf;">{q}</p>', unsafe_allow_html=True)
@@ -30,7 +36,7 @@ st.markdown('''
 <p align="center" style="color: #FFC62D;">
 This is my personal <i>Star Wars: The Clone Wars</i> episode order that skips over weaker or less relevant episodes and includes additional material from story reels and comics.  
 Episodes are grouped into story arcs and don't necessarily follow the chronological order, aiming to bring out the best of the series and make the story feel more cohesive and impactful.
-This list also includes links to episode guides, fan-edits, and streaming options on Disney+ or YouTube.</p>
+This list also includes links to episode guides, fan-edits, and streaming options on Disney+ or YouTube. More information on <a href="https://www.reddit.com/r/clonewars/comments/1kdptm4/i_made_a_website_for_my_personal_clone_wars/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button">Reddit</a></p>
 ''', unsafe_allow_html=True)
 
 arc = "Pilot"
@@ -40,7 +46,7 @@ tabA, tabB = st.tabs(["Original", "Fan-Edit"])
 
 with tabA:
     with st.expander("Star Wars: The Clone Wars (Film)"):
-        col1, col2 = st.columns([10,18])
+        col1, col2 = st.columns([10, 18])
         with col1:
             img = "images/pilot.png"
             st.image(img)
@@ -49,11 +55,12 @@ with tabA:
             if (q := row['quote']) != ".":
                 quote(q.upper())
             st.write(row['desc'])
-            st.markdown(f"[Episode Guide]({row['url']}) | [Stream]({row['stream']})")
+            st.markdown(
+                f"[Episode Guide]({row['url']}) | [Stream]({row['stream']})")
 
 with tabB:
     with st.expander("Star Wars: The Clone Wars (Battle of Christophsis)"):
-        col1, col2 = st.columns([10,18])
+        col1, col2 = st.columns([10, 18])
         with col1:
             img = "images/artwork.png"
             st.image(img)
@@ -78,7 +85,7 @@ for i, row in cw[1:-4].iterrows():
         prefix = ""
     expander_title = prefix + row['title']
     with st.expander(expander_title):
-        col1, col2 = st.columns([10,18])
+        col1, col2 = st.columns([10, 18])
         with col1:
             img = f"images/{row['title'].lower().replace(' ', '_')}.png"
             st.image(img)
@@ -86,7 +93,8 @@ for i, row in cw[1:-4].iterrows():
             if (q := row['quote']) != ".":
                 quote(q.upper())
             st.write(row['desc'])
-            st.markdown(f"[Episode Guide]({row['url']}) | [Stream]({row['stream']})")
+            st.markdown(
+                f"[Episode Guide]({row['url']}) | [Stream]({row['stream']})")
 
 
 cw_header("Siege of Mandalore")
@@ -94,7 +102,7 @@ tab1, tab2 = st.tabs(["Original", "Fan-Edit"])
 
 with tab2:
     with st.expander("Star Wars: The Clone Wars x Revenge of the Sith"):
-        col1, col2 = st.columns([10,18])
+        col1, col2 = st.columns([10, 18])
         with col1:
             img = f"images/TCWxROTS_artwork.png"
             st.image(img)
@@ -110,7 +118,7 @@ with tab1:
             prefix = ""
         expander_title = prefix + row['title']
         with st.expander(expander_title):
-            col1, col2 = st.columns([10,18])
+            col1, col2 = st.columns([10, 18])
             with col1:
                 img = f"images/{row['title'].lower().replace(' ', '_')}.png"
                 st.image(img)
@@ -118,10 +126,11 @@ with tab1:
                 if (q := row['quote']) != ".":
                     quote(q.upper())
                 st.write(row['desc'])
-                st.markdown(f"[Episode Guide]({row['url']}) | [Stream]({row['stream']})")
+                st.markdown(
+                    f"[Episode Guide]({row['url']}) | [Stream]({row['stream']})")
 
 
-footer="""<style>
+footer = """<style>
 .footer {
 position: relative;
 width: 100%;
@@ -137,4 +146,4 @@ All images and media used on this site remain the property of their respective o
 Please don't sue me - this is just for fun, not profit.</p>
 </div>
 """
-st.markdown(footer,unsafe_allow_html=True)
+st.markdown(footer, unsafe_allow_html=True)
